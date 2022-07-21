@@ -1,0 +1,39 @@
+{
+    "menu": [{
+            "navheader": "Dashboard",
+            "permission": "header_dashboard_access"
+        },
+        {
+            "url": "admin.home",
+            "name": "global.dashboard",
+            "permission": "dashboard_access",
+            "icon": "home",
+            "slug": "admin.home"
+        },
+        {
+            "navheader": "User Managements",
+            "permission": "header_user_access"
+        },
+        {
+            "url": "admin.users.index",
+            "name": "locale.user.title",
+            "permission": "user_access",
+            "icon": "user",
+            "slug": "admin.users.index"
+        },
+        {
+            "url": "admin.roles.index",
+            "name": "locale.role.title",
+            "permission": "role_access",
+            "icon": "user-x",
+            "slug": "admin.roles.index"
+        },
+        {
+            "url": "admin.permissions.index",
+            "name": "locale.permission.title",
+            "permission": "permission_access",
+            "icon": "lock",
+            "slug": "admin.permissions.index"
+        }
+    ]
+}

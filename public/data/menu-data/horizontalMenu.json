@@ -1,0 +1,96 @@
+{
+    "menu": [
+        {
+            "url": "admin.home",
+            "name": "global.dashboard",
+            "permission": "dashboard_access",
+            "icon": "home",
+            "slug": "admin.home"
+        },
+        {
+            "name": "Users",
+            "icon": "users",
+            "permission": "user_management_access",
+            "slug": "",
+            "submenu": [
+                {
+                    "url": "admin.permissions.index",
+                    "name": "cruds.permission.title",
+                    "icon": "circle",
+                    "slug": "admin.permissions.index",
+                    "permission": "permission_access"
+                },
+                {
+                    "url": "admin.roles.index",
+                    "name": "cruds.role.title",
+                    "icon": "circle",
+                    "slug": "admin.roles.index",
+                    "permission": "role_access"
+                },
+                {
+                    "url": "admin.users.index",
+                    "name": "cruds.user.title",
+                    "icon": "circle",
+                    "slug": "admin.users.index",
+                    "permission": "user_access"
+                },
+                {
+                    "url": "admin.departments.index",
+                    "name": "cruds.department.title",
+                    "icon": "circle",
+                    "slug": "admin.departments.index",
+                    "permission": "department_access"
+                }
+            ]
+        },
+        {
+            "url": "admin.bri-products.index",
+            "name": "cruds.briProduct.title",
+            "permission": "bri_product_access",
+            "icon": "columns",
+            "slug": "admin.bri-products.index"
+        },
+        {
+            "url": "admin.auction.index",
+            "name": "cruds.auction.title",
+            "permission": "auction_access",
+            "icon": "columns",
+            "slug": "admin.auction.index"
+        },
+        {
+            "url": "admin.regional-events.index",
+            "name": "cruds.regionalEvent.title",
+            "permission": "regional_event_access",
+            "icon": "layers",
+            "slug": "admin.regional-events.index"
+        },
+        {
+            "url": "admin.point-approvals.index",
+            "name": "cruds.pointApproval.title",
+            "permission": "point_approval_access",
+            "icon": "check",
+            "slug": "admin.point-approvals.index"
+        },
+        {
+            "url": "admin.audit-logs.index",
+            "name": "cruds.auditLog.title",
+            "icon": "list",
+            "slug": "admin.audit-logs.index",
+            "permission": "audit_log_access"
+        },
+        {
+            "url": "admin.exports.index",
+            "name": "cruds.exports.title",
+            "icon": "printer",
+            "slug": "admin.exports.index",
+            "permission": "export_report_access"
+        },
+        {
+            "url": "admin.fraud-reports.index",
+            "name": "cruds.fraudReport.title",
+            "icon": "alert-circle",
+            "slug": "admin.fraud-reports.index",
+            "permission": "fraud_report_access"
+        }
+    ]
+}
